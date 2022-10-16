@@ -1,0 +1,24 @@
+
+@model ICollection<Products>
+@{
+    ViewData["Title"] = "Items";
+}
+
+@foreach (var item in Model)
+{
+        
+ <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://contents.mediadecathlon.com/p1792797/e4085f705a12076fd9a9c548739ab428/p1792797.jpg?format=auto&quality=70&f=650x0" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">@item.productnamec</h5>
+            <p class="card-text">@item.productDesc<br />@item.amount</p>
+            <a asp-action="item" asp-route-id="@item.productid" class="btn btn-primary">View</a>
+        </div>
+    </div>
+        
+   
+}
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

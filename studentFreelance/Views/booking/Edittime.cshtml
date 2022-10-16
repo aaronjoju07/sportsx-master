@@ -1,0 +1,414 @@
+@model studentFreelance.Models.timming
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>timming</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edittime">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="t_Id" />
+            <div class="form-group">
+                <label asp-for="sports_Id" class="control-label"></label>
+                <input asp-for="sports_Id" class="form-control" value="@Model.sports_Id"  />
+                <span asp-validation-for="sports_Id" class="text-danger"></span>
+                
+            </div>
+            <div class="form-group">
+                <label asp-for="s_date" class="control-label"></label>
+                <input asp-for="s_date" class="form-control" value="@Model.s_date">@Model.s_date />
+                <span asp-validation-for="s_date" class="text-danger"></span>
+            </div> <div class="form-group form-check">
+                       <label class="form-check-label">
+                           @if (Model.s1 == true)
+                           {<input class="form-check-input" asp-for="s1" /> @Html.DisplayNameFor(model => model.s1)}
+                       else
+                       { <input class="form-check-input" asp-for="s1" disabled />@Html.DisplayNameFor(model => model.s1)}
+                       </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s2 == true)
+                    {
+                        <input class="form-check-input" asp-for="s2" /> @Html.DisplayNameFor(model => model.s2)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s2" disabled />@Html.DisplayNameFor(model => model.s2)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s3 == true)
+                    {
+                        <input class="form-check-input" asp-for="s3" /> @Html.DisplayNameFor(model => model.s3)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s3" disabled />@Html.DisplayNameFor(model => model.s3)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s4 == true)
+                    {
+                        <input class="form-check-input" asp-for="s4" /> @Html.DisplayNameFor(model => model.s4)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s4" disabled />@Html.DisplayNameFor(model => model.s4)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s5 == true)
+                    {
+                        <input class="form-check-input" asp-for="s5" /> @Html.DisplayNameFor(model => model.s5)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s5" disabled />@Html.DisplayNameFor(model => model.s5)}
+
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s6 == true)
+                    {
+                        <input class="form-check-input" asp-for="s6" /> @Html.DisplayNameFor(model => model.s6)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s6" disabled />@Html.DisplayNameFor(model => model.s6)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s7 == true)
+                    {
+                        <input class="form-check-input" asp-for="s7" /> @Html.DisplayNameFor(model => model.s7)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s7" disabled />@Html.DisplayNameFor(model => model.s7)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s8 == true)
+                    {
+                        <input class="form-check-input" asp-for="s8" /> @Html.DisplayNameFor(model => model.s8)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s8" disabled />@Html.DisplayNameFor(model => model.s8)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s9 == true)
+                    {
+                        <input class="form-check-input" asp-for="s9" /> @Html.DisplayNameFor(model => model.s9)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s9" disabled />@Html.DisplayNameFor(model => model.s9)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s10 == true)
+                    {
+                        <input class="form-check-input" asp-for="s10" /> @Html.DisplayNameFor(model => model.s10)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s10" disabled />@Html.DisplayNameFor(model => model.s10)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s11 == true)
+                    {
+                        <input class="form-check-input" asp-for="s11" /> @Html.DisplayNameFor(model => model.s11)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s11" disabled />@Html.DisplayNameFor(model => model.s11)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s12 == true)
+                    {
+                        <input class="form-check-input" asp-for="s12" /> @Html.DisplayNameFor(model => model.s12)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s12" disabled />@Html.DisplayNameFor(model => model.s12)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s13 == true)
+                    {
+                        <input class="form-check-input" asp-for="s13" /> @Html.DisplayNameFor(model => model.s13)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s13" disabled />@Html.DisplayNameFor(model => model.s14)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s14 == true)
+                    {
+                        <input class="form-check-input" asp-for="s14" /> @Html.DisplayNameFor(model => model.s14)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s14" disabled />@Html.DisplayNameFor(model => model.s14)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s15 == true)
+                    {
+                        <input class="form-check-input" asp-for="s15" /> @Html.DisplayNameFor(model => model.s15)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s15" disabled />@Html.DisplayNameFor(model => model.s15)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s16 == true)
+                    {
+                        <input class="form-check-input" asp-for="s16" /> @Html.DisplayNameFor(model => model.s16)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s16" disabled />@Html.DisplayNameFor(model => model.s16)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s17 == true)
+                    {
+                        <input class="form-check-input" asp-for="s17" /> @Html.DisplayNameFor(model => model.s17)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s17" disabled />@Html.DisplayNameFor(model => model.s17)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    @if (Model.s18 == true)
+                    {
+                        <input class="form-check-input" asp-for="s18" /> @Html.DisplayNameFor(model => model.s18)
+                    }
+                    else
+                    { <input class="form-check-input" asp-for="s17" disabled />@Html.DisplayNameFor(model => model.s18)}
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s19" /> @Html.DisplayNameFor(model => model.s19)
+                </label>
+            </div>
+            @*@if (Model.s1 == true)
+        {
+           @Html.CheckBox("s1", true)
+            @Html.Label("s1")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s2 == true)
+        {
+            @Html.CheckBox("s2", true)
+            @Html.Label("s2")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s3 == true)
+        {
+            @Html.CheckBox("s3", true)
+            @Html.Label("s3")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s4 == true)
+        {
+            @Html.CheckBox("s4", true)
+            @Html.Label("s4")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s5 == true)
+        {
+            @Html.CheckBox("s5", true)
+            @Html.Label("s5")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s6 == true)
+        {
+            @Html.CheckBox("s6", true)
+            @Html.Label("s6")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s7 == true)
+        {
+            @Html.CheckBox("s7", true)
+            @Html.Label("s7")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s8 == true)
+        {
+            @Html.CheckBox("s8", true)
+            @Html.Label("s8")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s9 == true)
+        {
+            @Html.CheckBox("s9", true)
+            @Html.Label("s9")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s10 == true)
+        {
+            @Html.CheckBox("s10", true)
+            @Html.Label("s10")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s11 == true)
+        {
+            @Html.CheckBox("s11", true)
+            @Html.Label("s11")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s12 == true)
+        {
+            @Html.CheckBox("s12", true)
+            @Html.Label("s12")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s13 == true)
+        {
+            @Html.CheckBox("s13", true)
+            @Html.Label("s13")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s14 == true)
+        {
+            @Html.CheckBox("s14", true)
+            @Html.Label("s14")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s15 == true)
+        {
+            @Html.CheckBox("s15", true)
+            @Html.Label("s15")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s16 == true)
+        {
+            @Html.CheckBox("s16", true)
+            @Html.Label("s16")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s17 == true)
+        {
+            @Html.CheckBox("s17", true)
+            @Html.Label("s17")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s18 == true)
+        {
+            @Html.CheckBox("s18", true)
+            @Html.Label("s18")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }
+        @if (Model.s19 == true)
+        {
+            @Html.CheckBox("s19", true)
+            @Html.Label("s19")
+        }
+        else
+        {
+            @Html.Label("")
+
+        }*@
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

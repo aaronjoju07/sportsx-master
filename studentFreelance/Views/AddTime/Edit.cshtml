@@ -1,0 +1,134 @@
+@model studentFreelance.Models.timming
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>timming</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="t_Id" />
+            <div class="form-group">
+                <label asp-for="sports_Id" class="control-label"></label>
+                <select asp-for="sports_Id" class="form-control" asp-items="ViewBag.sports_Id"></select>
+                <span asp-validation-for="sports_Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="s_date" class="control-label"></label>
+                <input asp-for="s_date" class="form-control" />
+                <span asp-validation-for="s_date" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s1" /> @Html.DisplayNameFor(model => model.s1)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s2" /> @Html.DisplayNameFor(model => model.s2)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s3" /> @Html.DisplayNameFor(model => model.s3)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s4" /> @Html.DisplayNameFor(model => model.s4)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s5" /> @Html.DisplayNameFor(model => model.s5)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s6" /> @Html.DisplayNameFor(model => model.s6)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s7" /> @Html.DisplayNameFor(model => model.s7)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s8" /> @Html.DisplayNameFor(model => model.s8)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s9" /> @Html.DisplayNameFor(model => model.s9)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s10" /> @Html.DisplayNameFor(model => model.s10)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s11" /> @Html.DisplayNameFor(model => model.s11)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s12" /> @Html.DisplayNameFor(model => model.s12)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s13" /> @Html.DisplayNameFor(model => model.s13)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s14" /> @Html.DisplayNameFor(model => model.s14)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s15" /> @Html.DisplayNameFor(model => model.s15)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s16" /> @Html.DisplayNameFor(model => model.s16)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s17" /> @Html.DisplayNameFor(model => model.s17)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s18" /> @Html.DisplayNameFor(model => model.s18)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="s19" /> @Html.DisplayNameFor(model => model.s19)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

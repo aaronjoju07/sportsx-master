@@ -1,0 +1,42 @@
+
+@model venue
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>@Model.venue_name</h1>
+<br />
+<div class="multi-carousel vertical" style="max-width: 20rem;">
+    <div class="multi-carousel-inner">
+        <div class="multi-carousel-item">
+            <img src="https://playo.gumlet.io/SPORTSALLEY/SouthUnitedFootballClub1642749273793.JPG?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Fstorage.googleapis.com%2Fplayoapp%2Flogo%2Fplayo-imgix-white.png&markalign=bottom%2Cright&markalpha=50&markfit=clip&markscale=20&markpad=12&markw=160&w=3038"
+                 alt="Table Full of Spices"
+                 class="w-100" />
+        </div>
+    </div>
+</div>
+
+<p>@Model.venue_desc</p>
+<br />
+
+<h5>Book</h5>
+<br />
+
+@foreach (var item in Model.Sports)
+{
+    <div class="row">
+        <div class="col-md-4">
+            <h2>@item.sportts</h2><h3>@item.slot_name</h3>
+            <h6>@item.amount</h6>
+            <p><a class="btn btn-secondary" asp-action="tim" asp-route-id="@item.sports_Id ">View details »</a></p>
+        </div>
+    </div>
+    @*<p><spam>@item.sportts</spam>,@item.slot_name,@item.amount</p>
+    <br />
+    <a asp-action="tim" asp-route-id="@item.sports_Id">view</a>*@
+}
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,232 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = studentFreelance
+build_property.RootNamespace = studentFreelance
+build_property.ProjectDir = /Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddBooking1/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkQm9va2luZzEvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddBooking1/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkQm9va2luZzEvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddBooking1/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkQm9va2luZzEvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddBooking1/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkQm9va2luZzEvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddBooking1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkQm9va2luZzEvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddProducts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkUHJvZHVjdHMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddProducts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkUHJvZHVjdHMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddProducts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkUHJvZHVjdHMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddProducts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkUHJvZHVjdHMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddProducts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkUHJvZHVjdHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddProducts/item.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkUHJvZHVjdHMvaXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddProducts/Items.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkUHJvZHVjdHMvSXRlbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddProducts/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkUHJvZHVjdHMvUGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddSports/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkU3BvcnRzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddSports/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkU3BvcnRzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddSports/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkU3BvcnRzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddSports/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkU3BvcnRzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddSports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkU3BvcnRzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddSpots/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkU3BvdHMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddSpots/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkU3BvdHMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddSpots/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkU3BvdHMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddSpots/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkU3BvdHMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddSpots/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkU3BvdHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddTime/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkVGltZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddTime/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkVGltZS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddTime/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkVGltZS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddTime/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkVGltZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/AddTime/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRkVGltZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/booking/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvYm9va2luZy9BZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/booking/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvYm9va2luZy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/booking/Edittime.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvYm9va2luZy9FZGl0dGltZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/booking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvYm9va2luZy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/booking/tim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvYm9va2luZy90aW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/venuee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvdmVudWVlL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/venuee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvdmVudWVlL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/venuee/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvdmVudWVlL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/venuee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvdmVudWVlL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/venuee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvdmVudWVlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaron/Desktop/AARON/Asp_Project/Freelancing_platform-master/studentFreelance/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lm4ss3568j

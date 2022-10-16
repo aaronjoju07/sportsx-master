@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-studentFreelance-B27835DE-6853-47C1-8CD8-AC550EF4AB3B</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Microsoft.AspNetCore.Identity.UI" />
+    <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <None Remove="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" />
+    <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
+    <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="Views\booking\" />
+    <None Remove="Repository\" />
+    <None Remove="Repository\IRepository\" />
+    <None Remove="Models\View Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+    <None Include="wwwroot\Images\.DS_Store" />
+    <None Include="wwwroot\Images\pic1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Images\pic2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+    <Folder Include="Views\booking\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Repository\IRepository\" />
+    <Folder Include="Models\View Model\" />
+    <Folder Include="wwwroot\Images\Global\" />
+    <Folder Include="wwwroot\Images\Product\" />
+    <Folder Include="wwwroot\Images\Venue\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\Images\.DS_Store" />
+    <Content Remove="wwwroot\Images\pic1.jpg" />
+    <Content Remove="wwwroot\Images\pic2.jpg" />
+    <Content Remove="wwwroot\Images\" />
+    <Content Remove="wwwroot\Images\Global\" />
+    <Content Remove="wwwroot\Images\Product\" />
+    <Content Remove="wwwroot\Images\Venue\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,152 @@
+@model IEnumerable<studentFreelance.Models.timming>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.sports.slot_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.s_date)
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.sports.slot_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.s_date)
+                </td>
+               
+                <td>
+                    <a asp-action="Edittime" asp-route-id="@item.t_Id">Book</a> |
+                    <a asp-action="Details" asp-route-id="@item.t_Id">Details</a> 
+                    
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@*@model timming
+    @{
+        ViewData["Title"] = "tim";
+    }
+
+    <h1>tim</h1>
+    <h3>@Model.sports_Id</h3>
+    <p>@Model.s_date.Day / @Model.s_date.Month <br /> @Model.s_date.DayOfWeek </p>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s1" /> @Html.DisplayNameFor(model => model.s1)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s2" /> @Html.DisplayNameFor(model => model.s2)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s3" /> @Html.DisplayNameFor(model => model.s3)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s4" /> @Html.DisplayNameFor(model => model.s4)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s5" /> @Html.DisplayNameFor(model => model.s5)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s6" /> @Html.DisplayNameFor(model => model.s6)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s7" /> @Html.DisplayNameFor(model => model.s7)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s8" /> @Html.DisplayNameFor(model => model.s8)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s9" /> @Html.DisplayNameFor(model => model.s9)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s10" /> @Html.DisplayNameFor(model => model.s10)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s11" /> @Html.DisplayNameFor(model => model.s11)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s12" /> @Html.DisplayNameFor(model => model.s12)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s13" /> @Html.DisplayNameFor(model => model.s13)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s14" /> @Html.DisplayNameFor(model => model.s14)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s15" /> @Html.DisplayNameFor(model => model.s15)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s16" /> @Html.DisplayNameFor(model => model.s16)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s17" /> @Html.DisplayNameFor(model => model.s17)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s18" /> @Html.DisplayNameFor(model => model.s18)
+        </label>
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="s19" /> @Html.DisplayNameFor(model => model.s19)
+        </label>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </div>
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }*@

@@ -1,0 +1,21 @@
+@model ICollection<venue>
+@{
+    ViewData["Title"] = "Index";
+}
+
+@foreach(var item in Model)
+            {
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://playo.gumlet.io/SPORTSALLEY/SouthUnitedFootballClub1642749273793.JPG?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Fstorage.googleapis.com%2Fplayoapp%2Flogo%2Fplayo-imgix-white.png&markalign=bottom%2Cright&markalpha=50&markfit=clip&markscale=20&markpad=12&markw=160&w=3038" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">@item.venue_name.</h5>
+        <p class="card-text">@item.venue_desc</p>
+        <a asp-action="Details" asp-route-id="@item.venue_name" class="btn btn-primary">View</a>
+    </div>
+</div>
+            }
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

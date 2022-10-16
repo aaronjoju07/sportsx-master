@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{1526A32B-5F60-4330-8CA6-5F6206051D8E}|Default">
+  <MonoDevelop.Ide.ItemProperties.studentFreelance PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="studentFreelance/Data/ApplicationDbContext.cs">
+    <Files>
+      <File FileName="studentFreelance/Views/Home/Privacy.cshtml" Line="31" Column="11" />
+      <File FileName="studentFreelance/Data/ApplicationDbContext.cs" Line="37" Column="50" />
+      <File FileName="studentFreelance/Models/sports.cs" Line="10" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="studentFreelance" expanded="True">
+            <Node name="studentFreelance" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Migrations" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

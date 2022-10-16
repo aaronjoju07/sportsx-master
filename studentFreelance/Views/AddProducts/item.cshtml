@@ -1,0 +1,61 @@
+
+@model studentFreelance.Models.Booking
+@{
+    ViewData["Title"] = "item";
+}
+<form asp-action="item">
+    <div class="multi-carousel vertical" style="max-width: 20rem;">
+        <div class="multi-carousel-inner">
+            <div class="multi-carousel-item">
+                <img src="https://contents.mediadecathlon.com/p1792797/e4085f705a12076fd9a9c548739ab428/p1792797.jpg?format=auto&quality=70&f=650x0"
+                     alt="Table Full of Spices"
+                     class="w-100" />
+            </div>
+        </div>
+    </div>
+    <input asp-for="product_id" hidden value="@Model.products.productid" />
+    <h4>@Model.products.productnamec</h4>
+    <br />
+    <p>@Model.products.productDesc<br />@Model.products.amount</p>
+    <input asp-for="Id" value="@User.Identity.Name" hidden />
+    <input asp-for="type" type="checkbox" checked hidden />
+    <input asp-for="amount" value="100" hidden />
+    <input asp-for="products" value="1" hidden />
+    <input name="quantity" type="number" asp-for="quantity" />
+    <span asp-validation-for="quantity" class="text-danger"></span>
+    <br />
+    <textarea asp-for="Address"></textarea>
+     <span asp-validation-for="Address" class="text-danger"></span>
+    <input type="submit" value="BUY" class="btn btn-primary" />
+</form>
+
+
+
+@*<a asp-action="payment" class="btn btn-primary" type="submit" >Submit</a>*@
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+@*<script>
+    const input = document.querySelector('.quantity-input');
+
+    let qty = parseFloat(document.querySelector(".quantity").textContent)
+    let price = parseFloat(document.querySelector(".price").textContent)
+    let totalqty = document.querySelector(".totalquantity")
+    let totalprice = document.querySelector(".totalprice")
+    var tqty = 0;
+    var tprice = 0;
+    input.addEventListener('input', (e) => {
+        tqty = (parseFloat(e.target.value)) * qty;
+        tprice = Math.round((parseFloat(e.target.value)) * price);
+        if (e.target.value == "") {
+            tqty = 0;
+            tprice = 0;
+        }
+        totalqty.innerHTML = tqty;
+        document.getElementById("hquantity").value = totalqty.innerHTML;
+        totalprice.innerHTML = tprice;
+        document.getElementById("htotalprice").value = totalprice.innerHTML;
+
+    });
+</script>*@
